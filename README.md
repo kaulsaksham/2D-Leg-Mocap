@@ -1,0 +1,2 @@
+# 2D-Leg-Mocap
+This repo contains the files necessary to perform motion tracking of a leg using a camera and four custom marker clusters. Lens correction and motion tracking are done using MATLAB code. The gcode files for the marker clusters are also included. For the program to work, you first need to obtain your camera's lens distortion paramaters using MATLAB's built-in Camera Calibrator app. This will require the use of a calibration checkerboard. For more information, read MATLAB's documentation on the Camera Calibrator app.
