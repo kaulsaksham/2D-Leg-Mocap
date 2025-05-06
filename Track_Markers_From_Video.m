@@ -18,6 +18,11 @@ objectFrame = readFrame(v);
 objectRegions = zeros(numOR, 4);
 
 % use mouse to select tracking regions by hand
+% Region 1: Upper Thigh Marker
+% Region 2: Lower Thigh Marker
+% Region 3: Upper Shank Marker
+% Region 4: Lower Shank Marker
+
 hold on;
 for i = 1:numOR
     imshow(objectFrame);
